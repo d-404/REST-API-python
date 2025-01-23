@@ -1,5 +1,5 @@
 from sqlalchemy import Table, Column, Integer, String, MetaData
-from app.db import meta
+from app.config.db import meta
 
 payments = Table(
     "payments", meta,

@@ -1,5 +1,5 @@
 from app.model.payment_model import payments
-from app.db import conn
+from app.config.db import conn
 
 class PaymentDAO:
     @staticmethod
